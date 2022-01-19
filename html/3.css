@@ -1,0 +1,23 @@
+div.khoinhac{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+    
+}
+a{
+  text-decoration: none;
+  color: rgb(37, 36, 36);  
+}
+section{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+body{
+    font-family: segoe ui light;
+}

@@ -1,0 +1,14 @@
+.sangphai{
+    
+    /* transform: translateX(200px); */
+   animation: sangphai 1s forwards;
+}
+@-webkit-keyframes sangphai{
+    0%{transform: translateX(0);opacity: 1;margin-top: 0;}
+    50% {transform: translateX(400px);opacity: 1;margin-top: 0;}
+    90% {transform: translateX(400px);opacity: 1;margin-top: 200px;}
+    100% {transform: translateX(800px);opacity: 0;margin-top: 200px;}
+    
+    
+}
+/* .card{transition: 0.4s;} */

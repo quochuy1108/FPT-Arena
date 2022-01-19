@@ -1,0 +1,72 @@
+img{width: 100%;}
+body{background-color: rgb(236, 236, 236);}
+.navbar{
+    height: 99px;
+    background-color: #fff600!important;
+    box-shadow: 0px -3px 5px 0px inset #c8c8c8
+}
+.navbar ul li.nav-item {
+    font-weight: 500;
+    padding: 0px 19px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    font-size: 12px;
+}
+.carousel-control-prev-icon{
+    background-image: url(images/chevron.png);
+    height: 36px;
+    width: 20px
+}
+.carousel .container .row .bgrwhite{background: white;;padding-bottom: 17px;border-bottom: 5px solid #c6c6c6;}
+.carousel-control-next-icon{
+    background-image: url(images/chevron.png);
+    transform: rotateY(180deg);
+    height: 36px;
+    width: 20px;
+    
+}
+
+.carousel .container .row .col-3{padding-left: 7px;padding-right: 7px;}
+ .row{margin:0;}
+.carousel .container .row .bgrwhite img{margin-bottom:17px}
+.carousel .container .row .bgrwhite p {
+    margin: 0;
+    padding-left:15px;
+    
+}
+.navbar ul a.nav-link.home {color: #b72706!important;text-decoration: underline;}
+/* nd3 */
+.nd3 {
+    height: 336px;
+    background: #6b6b6b;
+    position: relative;
+}
+.nd3 .container .nd3title{
+    position: absolute;
+    top: -28px;
+    left:50%;
+    transform: translateX(-50%);
+    color: #fff600;
+    background-color: black;
+    padding: 17px 103px;
+    border-radius: 4px;
+}
+.nd3 img{
+    width: 30px;
+
+}
+.nd3 .col-3{margin-top:89px}
+.nd3 .col-3 span{padding-left:12px;color: #fff600;font-size: 15px;font-weight: 600;}
+.nd3 .col-3 p{font-size: 12px;color: white;letter-spacing: 2px;padding-top:4px}
+
+@media(max-width:576px){
+    *{}
+
+.menutop {
+   height: 100%;
+}
+.navbar ul li.nav-item{
+    border-bottom: 1px dotted rgb(161, 161, 161);
+}
+}

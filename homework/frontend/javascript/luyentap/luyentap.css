@@ -1,0 +1,43 @@
+*{padding: 0;margin: 0;}
+.menu{
+    width: 100%;
+    height: 48px;
+    background: #f24c5d;
+}
+.menu .block{
+    float: right;
+    width: 150px;
+    position: relative;
+}
+.menu .block .icon{
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.menu .block .icon.white{
+    color: white;
+}
+
+.menu .block .hienthi{
+    position: absolute;
+    top: 48px;
+    opacity: 0;
+   
+    transition: 0.4s;
+}
+.menu .block .hienthi.hienra{
+    animation: cd 0.4s forwards;
+}
+@-webkit-keyframes cd{
+    from{transform: translateY(30px) ;opacity: 0;}
+    to{transform: translateY(0);opacity: 1;}
+}
+.menu .block .hienthi:after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 49%;
+    border: 8px solid #ffd70000;
+    border-bottom-color: #ffffff;
+}

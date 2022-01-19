@@ -1,0 +1,49 @@
+.nut {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 12px 51px;
+    cursor: pointer;
+    margin: 200px;
+}
+
+.den {
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+body,html {
+    height: 100%;
+}
+
+.do {
+    width: 400px;
+    height: 300px;
+    background: brown;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    transition: 0.4s;
+    opacity: 0;
+    transform: scale(0);
+}
+.dolen{
+    opacity:1;
+    transform:scale(1)
+}
+.denlen{opacity:0.4;visibility:visible;}
+.comment{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.ava{width: 20%;}
+.ava img{width: 50px;height: 50px;border-radius: 50%;}
+.text{width: 80%;}
+.text b{color:rgb(17, 17, 146) ;padding-right: 10px;} 

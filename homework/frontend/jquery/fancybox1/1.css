@@ -1,0 +1,20 @@
+*{margin:0;padding: 0;}
+img{width: 100%;}
+.imgs{display: flex;width: 100%;height: 230px;overflow: hidden;}
+.title{
+   color: grey;
+}
+.title:hover{
+    background: url(images/chevron-down.png)  no-repeat 90%;
+    background-size: 20px;
+}
+.title {}
+
+.block .title.yellow{
+    background-color: burlywood ;
+   
+}
+.block .title.yellow:hover{
+    background: url(images/chevron-up.jpg) no-repeat burlywood 90%;
+    background-size: 20px;
+}

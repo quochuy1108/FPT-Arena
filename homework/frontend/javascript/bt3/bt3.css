@@ -1,0 +1,17 @@
+.cd1{
+   animation: cd1 2s forwards!important
+}
+@-webkit-keyframes cd1{
+    0%{transform: translateX(0) translateY(0);opacity: 1;}
+    50%{transform: translateX(200px) translateY(0);opacity: 1;}
+    100%{transform: translateX(200px) translateY(200px);opacity: 1;}
+}
+
+.cd2{
+    animation: cd2 2s forwards;
+}
+@-webkit-keyframes cd2{
+    100%{transform: translateX(0) translateY(0);opacity: 1;}
+    50%{transform: translateX(200px) translateY(0);opacity: 1;}
+    0%{transform: translateX(200px) translateY(200px);opacity: 1;}
+}

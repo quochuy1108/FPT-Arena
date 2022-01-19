@@ -1,0 +1,69 @@
+.redline{width: 100%;background-color: #a70e1a;height: 45px;font-family: segoe ui;font-size: 19px;}
+.redline2{
+    display: flex;
+    list-style: none;
+    width: 1300px;
+}
+li a {text-decoration: none;color: whitesmoke;padding: 7px;display: block;transition: 0.3s;}
+li a:hover{background-color: #850c16;padding-bottom:12px}
+.greyline{background: #f1f1f1 ;width: 100%;;padding:15px;}
+.greylineimg{padding-left:46px;width: 1225px;}
+.khungtonhat{display: flex;width: 1300px;justify-content: space-between;}
+.khungtrai{display: flex;width: 875px;justify-content: space-between;font-family: segoe ui;}
+.khungtrai1{
+    width: 575px;font-size: 18px;
+    text-decoration: none;
+}
+.imgtrai1{width: 100%;margin-bottom: 2px;}
+.khungtrai1 h2{margin: 0;padding: 0;color:rgb(73, 71, 71) ;}
+.khungtrai1 h2:hover{margin: 0;padding: 0;color:rgb(31, 31, 192);}
+.imgkhungtrai2{width: 100%;}
+.khungtrai2{width: 275px;margin-left: 30px;}
+.textkhungtrai2{text-decoration: none;color: rgb(37, 36, 36);}
+.khungtrai2 h3{margin: 0;padding: 0;font-size: 19px;background-color: rgba(250, 248, 248, 0.979);padding: 11px 20px;;color:rgb(73, 71, 71) ;}
+.khungtrai2 h3:hover{color:rgb(31, 31, 192); }
+.khungphai{;width: 375px;}
+.imgkhungphai{width: 100%;}
+.imgkhungphai2{width: 100%;}
+.vachdoduoi{width: 875px;height: 4px;;background-color:#ff5e34;;margin-bottom: 20px;}
+.khungduoi{display: flex;font-family: segoe ui;width: 875px;}
+.duoitraiimg{width: 315px;}
+.duoiphai h3{padding: 0;margin: 0;;margin-bottom: 10px;font-size: 22px;}
+ .textduoiphai{text-decoration: none;color: rgb(31, 30, 30);}
+ .duoiphai{width: 535px;}
+ .textduoiphai2{text-decoration: none;font-size: 20px;color: rgb(31, 30, 30);}
+ .phut{color: rgb(175, 174, 174);font-size: 20px;}
+ .textduoiphai3{margin-top: 10px;}
+ .vachxamduoi{width: 875px;height: 1px;background-color: rgb(180, 178, 178);opacity: 50%;margin: 40px 0px;}
+ .khungphai{width: 360px;}
+ .imgkhungphai{width: 100%;}
+ .honoivechungtoi{font-family: segoe ui;background-color: rgb(240, 167, 9);padding: 10px;color: whitesmoke;font-size: 21px;}
+.pbvp{background-color: #e4e4e4;margin-top: -22px;padding: 2px 12px;}
+ .poweredbyviewplus{text-decoration: none;color: #a0a1a2;}
+ .khungphaiflex{;display: flex;;background: #f3f3f3;padding: 12px;margin-bottom:3px}
+ .khungphaianh1{width: 65px;height: 65px;}
+ .khungtext{padding-left: 20px;margin-top: -16px;}
+ .khungphaitext{text-decoration: none;color: #808080;font-size: 12px;margin-bottom: -15px;display: block;}
+ .khungphaitext2{text-decoration:none;color: #454545;margin-bottom: -15px;display: block;}
+ .khungphaitext2:hover{color: rgb(29, 29, 163);}
+ .view{text-decoration: none;color: #808080;margin-bottom: 5px;;display: block;}
+ .nguon{color: #808080;}
+ hr{opacity: 20%;}
+ .yellowline{font-family:segoe ui;
+     width: 100%;height: 100px;background-color: #f0a52b;margin-bottom:-19px
+ ;;}
+ .alo123{width: 1400px;margin: auto;}
+ .imglogokenh14{width: 200px;height: 100px;}
+ .dienbien {text-decoration: none;color: whitesmoke;border: 1px solid whitesmoke;padding: 5px 20px;border-radius: 30px;}
+ .covid19{text-decoration: none;color: whitesmoke;border: 1px solid whitesmoke;padding: 5px 20px;border-radius: 30px;margin-left:20px}
+ .vanhoaamthuc{text-decoration: none;color: whitesmoke;border: 1px solid whitesmoke;padding: 5px 20px;border-radius: 30px;margin-left:20px;}
+ .gop{margin-top: -65px;margin-left:300px;font-size:15px;font-weight:600}
+ .blackline{width: 100%;background-color: rgb(15, 15, 15);height: 27px;font-family: segoe ui;}
+.blackline .magazine .fa{color: rgb(218, 128, 12);font-size: 9px;}
+.blackline .magazine2{text-decoration: none;color: whitesmoke;font-weight: 500;font-size: 13px;;text-align: right;}
+.khoiden{margin-left: 10px;;}
+.blacklinewidth{width: 1300px;}
+.blackline input{background-color: rgb(15, 15, 15);;color: whitesmoke;border: none;margin-left: 800px;padding: 5px;font-size: 11px;}
+
+
+

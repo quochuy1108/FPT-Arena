@@ -1,0 +1,107 @@
+*{margin:0;padding: 0;}
+
+.button ul li.grey{background-color: rgb(61, 72, 238);}
+
+.divaobentrai{
+    animation: divaotrai 1s forwards;
+    z-index: 500;
+    }
+    @-webkit-keyframes divaotrai{
+        from{transform: translateY(100%) ;opacity: 1;}
+        to{transform: translateY(0);opacity: 1;visibility: visible;}
+    }
+
+.active.bienmatbenphai{
+    animation: sangphai 1s forwards;
+    transform-origin: 50% 0%;
+}
+@-webkit-keyframes sangphai{
+    from{transform: rotateX(0) translateZ(0) scale(1)}
+    to{transform: rotateX(-45deg) translateZ(-100px) scale(0.7);}
+}
+
+.divaobenphai{
+animation: divaophai 1s forwards;
+z-index: 40;
+}
+@-webkit-keyframes divaophai{
+    from{transform: translateX(100%);opacity: 0;visibility: hidden;z-index: 40;}
+    to{transform: translateX(0);opacity: 1;visibility: visible;z-index: 40;}
+}
+.active.bienmatbentrai{
+    animation: sangtrai 1s forwards;
+    transform-origin:0% 50% ;
+    z-index: 8;
+}
+@-webkit-keyframes sangtrai{
+    from{transform: rotateY(0);}
+    to{transform: rotateY(45deg);opacity: 1;visibility: visible;}
+}
+._1slide.active{opacity: 1;}
+li {
+    background-color: rgb(59, 59, 59);
+    border-radius: 50%;
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+li:hover{background: rgb(61, 72, 238);}
+ul {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    bottom: -430px;
+    list-style: none;
+}
+
+.arrow {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow .left:hover{color: rgb(133, 133, 133);}
+.arrow .right:hover{color: rgb(133, 133, 133);}
+.button {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+}
+._1slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    
+}
+
+.slideimages {
+    width: 1262px;
+    height: 580px;
+    position: relative;
+    perspective: 1000px;
+    background-color: black;
+    z-index: 2;
+    overflow: hidden;
+    left:50%;
+    margin-left: -631px;
+    margin-top: 40px;
+}
+
+header.apple.text-center {
+ 
+    width: 100%;
+    height: 100%;
+   
+}
+
+body{background-color: #61303033;overflow: hidden;}

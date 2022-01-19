@@ -1,0 +1,164 @@
+*{margin:0;padding: 0;}
+img{width: 100%;}
+/* lam */
+body{
+    background-color: rgb(236, 236, 236);
+}
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;  
+    margin-top: 20px;
+}
+.oneuser {
+    width: 263px;
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    position: relative;
+    perspective: 500px;
+    overflow: hidden;
+}
+
+.ava {
+    position: absolute;
+    width: 100%;
+    text-align: center; 
+    cursor: pointer;
+    transition: 0.8s;
+    backface-visibility: hidden;
+}
+
+.img {
+    width: 180px;
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 0 4px #e4e4e4;
+    transform: translateX(20%) translateY(20%);
+}
+.name {
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.job {
+    opacity: 50%;
+    font-size: 14px;
+}
+.oneuser:hover .ava{
+    transform: rotateY(180deg);
+}
+.info{
+    width: 100%;
+    height: 100%;
+    background: #5cadad;
+    position: absolute;
+    color: white;
+    transform-origin: ;
+    transition: 0.8s;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+.oneuser:hover .info{
+    transform: rotateY(0);
+}
+.blockinfo {
+    font-size: 14px;
+    width: 232px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+h4 {font-size: 24px;font-weight: 400;}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.icon i {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.icon i:hover{
+    background-color: white;
+    color: #5cadad;
+}
+.icon {font-size: 16px;position: absolute;left: 10px;}
+.button{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+.button .btn{
+    cursor: pointer;
+    margin-left: 20px;
+}
+.button .btn.cam{
+    background-color: rgb(175, 36, 36);
+    color: black;
+}
+.button .btn i.fa{
+    margin-right: 10px;
+}
+.textappear {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+    
+}
+.textappear .block{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+   background-color: white;
+   position: absolute;
+   opacity: 0;
+   visibility: hidden;
+   transition: 0.4s;
+   transform: scale(0);
+   border: 1px solid rgb(221, 221, 221);
+}
+.textappear .block.active{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.4s;
+    transform: scale(1);
+}
+.textappear .block .anh {
+    width: 29%;
+    background-position: center;
+    background-size: cover;
+    height: 223px;
+}
+.textappear .block .text{
+    width: 68%;
+}
+.textappear .block:after {content: "";position: absolute;top: -9px;left: 61px;width: 17px;height: 17px;border: 1px solid #d4d4d4;transform: rotate(-45deg);}
+.textappear .block:before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 60px;
+    width: 19px;
+    height: 19px;
+    transform: rotate(-45deg);
+    background: white;
+    z-index: 2;
+}
+.do{
+    background-color: rgb(175, 36, 36)
+}

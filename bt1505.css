@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;}
+body{font-size: 14px;font-family: segoe ui;}
+a{text-decoration: none;color: black;}
+img{width: 100%;}
+
+.bai1{width: 1000px;margin: auto;}
+.bai1 .tren{width: 1000px;display:flex;justify-content: space-between;}
+.bai1 .tren .trentrai{width: 625px;}
+.bai1 .tren .trentrai h2{margin-top: 10px;font-size: 27px;}
+.bai1 .tren .trentrai p{margin-top: 5px;}
+.bai1 .tren .trenphai{width: 350px;}
+.bai1 .tren .trenphai h3{margin-bottom: 10px;font-size: 16px;}
+.bai1 .duoi .tieude{
+    width: 500px;
+    border-bottom: 2px solid black;
+    margin:auto
+}
+.bai1 .duoi .tieude h3{
+    background:white;
+    width: 150px;
+    text-align: center;
+    margin:auto;
+    position: relative;
+    top:8px
+}
+.bai1 .duoi .duoiflex{width: 1000px;display: flex;justify-content: space-between;margin-top: 20px;}
+.bai1 .duoi .duoiflex .duoiflex1{width: 325px;}
+.bai1 .duoi .duoiflex .duoiflex1 h3{margin-top: 5px;}
+/* xongb1  */
+.bai2{width: 1000px;margin: auto;}
+.layerbo{width: 1000px;height: 290px;position: relative;margin:auto ;}
+.layerbo .l1{width: 80%;height: 100%;position: absolute;top:0px;right: 0px;}
+.layerbo .l2{background: -webkit-linear-gradient(left,red 0%,rgb(255, 0, 0) 30%,rgba(255, 0, 0, 0.18) 60%,transparent 100%);position: absolute;width: 100%;height: 451px;opacity: 1;left: 0px;}
+.layerbo .l3{color: whitesmoke;position: absolute;top: 80px;left: 40px;width: 300px;font-size: 29px;font-weight: bold;opacity: 1;}
+.bai2 .duoi{display: flex;justify-content: space-between;margin-top: 200px;}
+.bai2 .duoi .cot1{width: 325px;font-size:20px}
+.bai2 .duoi .cot1 h3{border-bottom: 1px dotted grey;height:104px}
+.bai2 .duoi .cot2{width: 325px;font-size:20px;}
+.bai2 .duoi .cot2 h4{margin-bottom: 10px;height:90px;border-bottom:1px dotted}
+/* xong b2  */
+.bai3{width: 1000px;margin: auto;margin-top: 130px;}
+.bai3 .tren{display: flex;justify-content: space-between;margin: auto;}
+.bai3 .tren .cot1{width: 466px}
+.bai3 .tren .cot1 .gop{padding: 10px;background-color: rgb(216, 216, 216);margin-top: -4px;border-bottom:1px solid;border-left:1px solid;border-right:1px solid;height:106px}
+.bai3 .tren .cot1 img{height: px;}
+.bai3 .tren .cot2{width: 267px ;}
+.bai3 .tren .cot2 img{height: 311px;} 
+.bai3 .tren .cot2 h2{font-size:18px;padding:8px;border-right:1px solid;border-bottom:1px solid;height:110px;margin-top:-4px;background-color:rgb(216, 216, 216) ;} 
+.bai3 .duoi{width: 1000px;display: flex;justify-content: space-between;margin-top: 30px;}
+.bai3 .duoi .khoi{width: 197px;font-size:12px}

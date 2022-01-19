@@ -1,0 +1,145 @@
+.bo {
+    position: relative;  
+    perspective: 500px;
+    margin-left:500px;
+    margin-top:50px;
+    width:500px;
+    height:500px
+}
+
+.con img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition:0.4s;
+     width: 500px;
+    height: 300px;
+    transform-origin:50% 0%;
+}
+
+
+.bo.quayX .con img:nth-child(4){
+    transform:rotateX(35deg)
+}
+.bo.quayX .con img:nth-child(3){
+    transform:rotateX(30deg)
+}
+.bo.quayX .con img:nth-child(2){
+    transform:rotateX(25deg)
+}
+.bo.quayX .con img:nth-child(1){
+    transform:rotateX(15deg)
+}
+/* khoi2 */
+button.btn.btn-lg.btn-info {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.nho img {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+}
+
+.khoi2 {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.khoi2:after {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    background-color: #ff00005e;
+    bottom: -151px;
+    transition: 0.4s;
+    transform-origin: 0% 50%;
+    left: -10px;
+}
+
+.khoi2.len:after {
+    transform: rotate(-15deg);
+}
+/* khoi3 */
+.khoi3 {
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.khoi3 img {
+    width: 100%;
+    opacity: 50%;
+}
+.khoi3:after, .khoi3:before {content: "";position: absolute;width: 460px;height: 260px;border: 5px solid black;top: 20px;left: 20px;border-left-color: transparent;border-right-color: transparent;transition: 0.4s;transform: scaleX(0);}
+
+.khoi3:hover:after {
+    transform: scale(1);
+}
+
+.khoi3:before {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: black;
+    border-left-color: black;
+    transform: scaleX(1) scaleY(0);
+    
+}
+.khoi3:hover:before{
+    transform: scaleX(1) scaleY(1);
+}
+/* 4 */
+button.btn.btn-info.btn-lg.nut {
+    margin-bottom: 150px;
+}
+    
+
+.bo2 {
+    position: relative;  
+    perspective: 500px;
+    margin-left:500px;
+    margin-top:50px;
+    width:500px;
+    height:500px;
+    
+}
+.bo2 .con2{
+   
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.bo2.hienlen .con2{
+    transform: rotateY(70deg);
+}
+.con2 img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition:0.4s;
+     width: 500px;
+    height: 300px;   
+}
+
+
+.bo2 .con2 img:nth-child(4){
+    transform:translateZ(0px)
+}
+.bo2 .con2 img:nth-child(3){
+    transform:translateZ(-100px)
+}
+.bo2 .con2 img:nth-child(2){
+    transform:translateZ(-300px)
+}
+.bo2 .con2 img:nth-child(1){
+    transform:translateZ(-500px)
+}
+

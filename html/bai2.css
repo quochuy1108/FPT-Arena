@@ -1,0 +1,13 @@
+*{margin: 0;padding: 0;}
+.anhto{width: 100%;}
+.mota{font-family: Noto serif;font-size: 18px;width: 680px;font-weight: 700;margin: auto;text-align: center;padding-top: 30px;}
+hr{width:300px ;
+margin: auto;
+margin-top: 60px;
+margin-bottom: 60px;}
+.noidung{width: 680px;
+margin: auto;}
+.noidung p{font-family: segoe ui;font-size: 15px;margin-top: 15px;
+}
+.noidung img{width: 100%;margin-top:60px;margin-bottom: 20px;}
+.noidung i{font-family: segoe ui;font-size: 18px;margin-top: 15px;font-weight: bold;color: #444;}

@@ -1,0 +1,14 @@
+{
+  "course": [
+    {
+      "id": 1,
+      "name": "Kien thuc cho nguoi moi bat dau",
+      "description": "Kien thuc gi day"
+    },
+    {
+      "name": "HTML, CSS từ zero đến Hero 2",
+      "description": "2 Khóa học đề cao việc thực hành qua những ví dụ trong thực tế giúp học viên nhanh chóng xây dựng được giao diện website",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+*{margin:0;padding:0}
+img{width: 100%;}
+a{text-decoration: none;color:white}
+a:hover{text-decoration: none;color:white}
+
+.menutop{width:100%;background-color:#bb1a1a;height:40px}
+.menutop > ul{list-style:none;display:flex;width:600px;margin:auto;}
+.menutop > ul > li{padding:0px 15px;border-right:1px solid #d8d8d8;}
+.menutop > ul > li:hover{background-color:#1b9d9d}
+.multilevel{
+    position:relative;
+    height: 40px;
+    padding-top:6px;
+    transition:0.4s
+}
+.multilevel:hover{}
+.multilevel .layer1{}
+.multilevel .layer2{position:absolute;top:40px;left:0px;visibility:hidden;; width:150px;opacity:0;transition:0.4s;border-radius:3px}
+.multilevel:hover .layer2{visibility:visible;opacity:1;left:-15px;opacity:1;border-radius:3px}
+.multilevel .layer2 ul{list-style:none;background-color:#24ce94;cursor:pointer}
+.multilevel .layer2 ul li{border-bottom:1px solid grey;padding:10px;transition:0.4s}
+.multilevel .layer2 ul li:hover{background-color:#1b9d9d}
+.multilevel .layer2 ul li a{}
+.menutop ul li .multilevel.abc{border-left: 1px solid white;margin-left:-15px;padding-left:15px}
+.menutop ul li .multilevel.abc .layer2 {padding-left:15px;width:165px}
+.menutop ul li .multilevel.abc .multilevel.xahoi{height:34px;margin-top:-10px}
+.menutop ul li .multilevel.abc .multilevel.xahoi:hover .layer2.xahe{opacity:1;visibility:visible}
+.menutop ul li .multilevel.abc .multilevel.xahoi .layer2.xahe{opacity:0;visibility:hidden;margin-left:142px;margin-top:-40px}
+

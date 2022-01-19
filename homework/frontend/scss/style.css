@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  background-color: #00aefd;
+  padding: 2rem;
+}
+.header-inner {
+  color: white;
+}
+.header-inner-text {
+  color: red;
+}
+.header-inner-text:hover {
+  color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */

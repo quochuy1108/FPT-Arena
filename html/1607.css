@@ -1,0 +1,40 @@
+*{margin: 0;padding: 0;}
+img{width: 100%;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+/*  */
+.multilevel{position: relative;height:40px;width:100px;transition:0.3s}
+.multilevel:hover{background:#d62929}
+.multilevel .l1{text-align:center;color:white;padding-top:6px}
+.multilevel .l2{position: absolute;top:40px;left:0px;width:150px;visibility:hidden;opacity:0;}
+.multilevel .l2 ul{list-style:none;}
+.multilevel:hover .l2{visibility:visible;opacity:1} 
+.multilevel .l2 ul li{padding:10px;border-bottom:1px solid;background:#e24f4f;box-shadow: 0 0 5px 0px #f54c4c;color:white;transition:0.3s}
+.multilevel .l2 ul li.thoitrang{border-bottom:none}
+.multilevel .l2 ul li:hover{background:#841e1e;cursor:pointer}
+.multilevel .l2 ul li a{color:white;padding-top:10px}
+/*  */
+.menu{width: 100%;height: 40px;background-color: #f54c4c;}
+.menu > ul{width: 450px;margin:auto;list-style:none;display:flex;justify-content:space-between}
+.menu > ul > li{}
+/*  */
+.menu .multilevel.congnghe .l2 .block{position: relative;}
+.menu .multilevel.congnghe .l2 .block .xahoi{}
+.menu .multilevel.congnghe .l2 .block .l3{position: absolute;width:150px;top:0px;left:152px;opacity:0;visibility:hidden}
+.menu .multilevel.congnghe .l2 .block:hover .l3{opacity:1;visibility:visible}
+.menu .multilevel.congnghe .l2 .block .l3 a .khaoco{border-bottom: none;}
+
+
+/*  */
+<div class="multilevel">
+          <div class="l1">Thể thao</div>
+          <div class="l2">
+              <ul>
+                  <a href=""><li>Công nghệ</li></a>
+                  <li> <a href="">Chính trị</a></li>
+                  <li> <a href="">Xã hội</a></li>
+                  <li> <a href="">Đời sống</a></li>
+                  <li class="thoitrang"> <a href="">Thời trang</a></li>
+              </ul>
+          </div>
+      </div>

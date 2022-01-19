@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    div {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+      background-color: #f24c5d;
+    }
+    ul.tabs {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      width: 300px;
+    }
+    li.tabs-item {
+      font-size: 20px;
+      font-weight: bold;
+      position: relative;
+    }
+    li.white {
+      color: white;
+    }
+
+    .chat-list {
+      list-style: none;
+      position: absolute;
+      box-shadow: 0 0 10px 0 black;
+      width: 120px;
+      right: 0;
+      top: 36px;
+      padding: 16px;
+      display: none;
+    }
+    .chat-item {
+      margin-bottom: 10px;
+    }
+  </style>
+  <body>
+    <div>
+      <ul class="tabs">
+        <li class="tabs-item" data-popup="one">
+          one
+          <ul class="chat-list" id="one">
+            <li class="chat-item">Facebook</li>
+            <li class="chat-item">Instagram</li>
+            <li class="chat-item">Telegram</li>
+          </ul>
+        </li>
+        <li class="tabs-item" data-popup="two">
+          two
+          <ul class="chat-list" id="two">
+            <li class="chat-item">Facebook</li>
+            <li class="chat-item">Instagram</li>
+            <li class="chat-item">Telegram</li>
+          </ul>
+        </li>
+        <li class="tabs-item" data-popup="three">
+          three
+          <ul class="chat-list" id="three">
+            <li class="chat-item">Facebook</li>
+            <li class="chat-item">Instagram</li>
+            <li class="chat-item">Telegram</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <script>
+      const items = document.querySelectorAll("li");
+      const chatListAll = document.querySelectorAll(".chat-list");
+
+      items.forEach((item) => {
+        item.onclick = function (e) {
+          if (this.classList[1] == "white") {
+            item.classList.remove("white");
+            dataset = this.getAttribute("data-popup");
+            chatList = document.getElementById(dataset);
+            chatList.style.display = "none";
+          } else {
+            items.forEach((e) => {
+              e.classList.remove("white");
+            });
+            this.classList.add("white");
+            dataset = this.getAttribute("data-popup");
+            chatList = document.getElementById(dataset);
+
+            chatListAll.forEach((item) => {
+              item.style.display = "none";
+            });
+
+            chatList.style.display = "block";
+            chatList.style.color = "black";
+          }
+        };
+      });
+    </script>
+  </body>
+</html>

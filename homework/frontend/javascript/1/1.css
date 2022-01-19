@@ -1,0 +1,45 @@
+.blue {
+    height: 52px;
+    position: relative;
+    background: indianred;
+}
+
+.block {
+    float: right;
+    margin-right: 42px;
+    position: relative;
+}
+.icon {
+    font-size: 24px;
+    padding: 7px;
+    transition: 0.4s;
+}
+li {
+    position: absolute;
+    right: 90px;
+    top: 2px;
+    transition: 0.4s;
+}
+
+.appear:after {
+    position: absolute;
+    content: "";
+    border: 9px solid transparent;
+    border-bottom-color: white;
+    top: -15px;
+    left: 8px;
+}
+.icon.white{
+    color: white;
+}
+.blue .block .appear{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    transform: translateY(30px);
+}
+.blue .block .appear.hienlen{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}

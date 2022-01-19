@@ -1,0 +1,46 @@
+.blue {
+    background: blue;
+    height: 48px;
+}
+.blue .phantubo {
+    float: right;
+    margin-right: 200px;
+    position: relative;
+    /* background-color: red; */
+}
+.tamgiac {
+    font-size: 24px;
+    color: black;
+    padding-top: 5px;
+    position: absolute;
+    right: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+  
+}
+.khoi {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    top: 48px;
+  visibility: hidden;
+  opacity: 0;
+transition: 0.2s;
+}
+.khoi.hienra{
+    visibility: visible;
+    opacity: 1;
+}
+.khoi:after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border: 9px solid #daa52000;
+    border-bottom-color: white;  
+    top: -17px;
+    right: 18px;
+}
+.trang{
+    color: white;
+}

@@ -1,0 +1,39 @@
+*{padding: 0;margin: 0;}
+img{width: 100%;}
+body{
+    font-family: Roboto;
+}
+.noidung{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.noidung .khoianh{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.noidung .khoianh.nhandoi{
+    width: 50%;
+}
+figcaption{
+    text-align: center;
+    padding: 2px;
+    background-color: lightblue;
+}
+@media (max-width:576px){
+    .noidung .khoianh{
+        width: 100%
+    }
+    .noidung .khoianh.nhandoi{
+        width: 100%
+    }
+}
+@media (min-width:577px) and (max-width:768px){
+    .noidung .khoianh{
+        width: 50%
+    }
+}
+.duocchon{
+    background-color: brown;
+}

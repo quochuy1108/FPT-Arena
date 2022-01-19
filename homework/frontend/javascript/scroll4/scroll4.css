@@ -1,0 +1,75 @@
+*{padding: 0;margin: 0;}
+img{width: 100%;}
+.menu{
+    width: 100%;
+    background: #4e4eb7;
+    height: 48px;
+    position: fixed;
+    top:0;
+    z-index: 2;
+    transition: 0.4s;
+}
+.menu.chuyendo{
+    background: #eb3838;
+}
+.menu .khungmenu{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu .khungmenu .logo{color: white;font-size: 32px;}
+.menu .khungmenu .text{
+    color: white;
+}
+.menu .khungmenu .text ul{list-style: none;display: flex;}
+.menu .khungmenu .text ul li{
+    padding: 12px 28px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.menu .khungmenu .text ul li:hover{
+    background-color: rgb(50, 46, 70);
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top:100px;
+   position: relative;
+}
+
+.col-sm-2{
+   opacity: 1;
+   visibility: visible;
+  
+    transition: 0.8s;
+    transform: translateX(0);
+}
+.col-sm-2.divao {
+  
+    transform: translateX(200%);
+   
+}
+.container .row{
+    display: flex;
+    justify-content: space-between;
+}
+.container .row .anh {
+    width: 300px;
+    margin-top: 100px;
+   
+}
+.container .row .anh.bandau{
+    
+}
+
+.container .row .anh.fixed{
+    position: fixed;
+    transform: translateX(700px);
+    top:0px
+   
+} 
+.container .row .anh.dungyen{
+   margin-top: 1300px;
+}

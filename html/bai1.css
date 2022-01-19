@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+.tin{width: 1000px;
+margin: auto;margin-top: 50px;}
+.tin .danhmuc{
+    font-size: 20px;
+    font-family: segoe ui;
+    color: grey;
+}
+.tin h1{font-family: Noto Serif;
+font-size: 40px;
+margin-top: 10px;}
+.tacgia .den{color: black;font-family: segoe ui;font-weight: 700;}
+.tacgia span{color: rgb(184, 182, 182);}
+.haicot{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cottrai{
+    width: 660px;
+}
+.cotttrai .s1{font-family: Noto serif;
+margin-top: 19px;font-weight: 700;font-size: 18px;}
+.cottrai .bt{font-size: 18px;font-family: segoe ui;margin-top: 20px;}
+.xaomi8{font-family: segoe ui;font-size: 24px;font-weight: 700;margin-top: 19px;}
+.anhtin img{margin-top: 20px;width: 100%;}
+.chunhat{font-size: 12px;font-family: segoe ui;color: rgb(161, 159, 159);}
+.cottphai{width: 300px;}

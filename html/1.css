@@ -1,0 +1,41 @@
+a{text-decoration:none}
+a:hover{text-decoration:none}
+*{margin:0,padding:0}
+img{width:100%}
+body{color:#403f3f;font-family:segoe ui}
+/*  */
+.thanhmenu{position:fixed;height:67px;width:100%;background:#ff000033;top:0}
+.widthmenu{width:1500px;display:flex;margin:auto;justify-content:space-between;}
+.widthmenu .trai{width:60px;background:}
+.widthmenu .trai img{padding-top:14px}
+.widthmenu .giua{width:1000px;margin-right:200px}
+.widthmenu .giua .textmenu{list-style:none;display:flex;}
+.widthmenu .giua .textmenu li{padding:10px;;padding-top:17px}
+.widthmenu .giua .textmenu li a{color:#403f3f ;font-weight:500;padding-bottom:26px}
+.widthmenu .giua .textmenu li a:hover{color:#10d6da;border-bottom:2px solid #10d6da }
+.widthmenu .phai{width:100px;text-align:end}
+.widthmenu .phai .fa{font-size:30px;padding-left:10px;padding-top:17px;cursor:pointer}
+.widthmenu .phai .fa:hover{color:#10d6da}
+/*  */
+.bigblock{width:1500px;display:flex;justify-content:space-between;margin:auto;margin-top:100px;}
+.bigblock .trai{width:23%;margin-top:-15px}
+.bigblock .trai .traiflex{display:flex;justify-content:space-between;border-bottom:1px solid grey;padding-bottom:15px;padding-top:15px;}
+.bigblock .trai .traiflex.cuoi{border-bottom:none;}
+.bigblock .trai .traiflex:hover .right{color:#10d6da}
+.bigblock .trai .traiflex .left{width:40%}
+.bigblock .trai .traiflex .right{width:50%;}
+.bigblock .trai .traiflex .right p{font-weight:600;font-size:15px}
+.bigblock .giua{width:50%}
+.bigblock .giua a img{width:100%}
+.bigblock .giua a img:hover h1{color:#10d6da}
+.bigblock .giua a h1{color:#333;padding-top:10px}
+.bigblock .giua a h1:hover{color:#10d6da}
+.bigblock .giua p{}
+.bigblock .giua ul{margin-left:-20px;cursor:pointer}
+.bigblock .giua ul:hover{color:#10d6da}
+.bigblock .giua ul li{font-weight:600}
+.bigblock .phai{width:23%}
+.bigblock .phai .block:hover .textnho{color:#10d6da}
+.bigblock .phai .block{margin-bottom:40px}
+.bigblock .phai .block a img{margin-bottom:5px}
+.bigblock .phai .block .textnho{font-size:22px;color:#333;font-weight:600;margin-top:20px;}

@@ -1,0 +1,56 @@
+*{margin: 0;padding:0;}
+body,html{
+    height: 100%;
+}
+.menutren {
+   position: fixed;
+   height: 56px;
+   padding-left: 20%;
+}
+
+.menutren ul li {float: left;list-style: none;padding: 20px 48px;font-size: 18px;}
+.menutren ul li a{color: white;font-weight: 500;text-transform: uppercase;}
+.home {
+    background-image: url(nui.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.chapter1, .chapter2, .chapter3, .chapter4 {
+    background-image: url(chapter1.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    font-size: 302px;
+    color: white;
+}
+
+.chapter4 {
+    background-image: url(chapter4.jpg);
+}
+
+.chapter3 {
+    background-image: url(chapter3.jpg);
+}
+
+.chapter2 {
+    background-image: url(chapter2.jpg);
+}
+ h1 {
+    margin-left: 10%;
+    font-size: 300px;
+    padding-top: 200px;
+}
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    position: fixed;
+    bottom: 8px;
+    border-radius: 50%;
+    right: 8px;
+   
+}

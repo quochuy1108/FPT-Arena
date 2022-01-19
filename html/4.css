@@ -1,0 +1,190 @@
+section.leftcolumn{
+    font-family: segoe ui;
+    font-size: 10px;
+    width: 790px;
+    
+}
+.trencung .anhtren{
+    text-decoration: none;
+}
+.trencung .anhtren:hover{
+    color: rgb(14, 187, 218);
+}
+img {
+    border-radius: 9px;
+    width: 100%;
+}
+.crop{
+    width: 790px;
+    overflow: hidden;
+    border-radius: 9px;
+}
+.crop img:hover{
+    transform: scale(1.2);
+}
+.anhtren h3{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+.SKDS, .time, .lq{
+    color: rgb(153, 152, 152);
+    font-family: segoe ui;
+}
+.SKDS, .lq{
+    text-decoration: none;
+}
+.time{
+    padding: 30px;
+}
+.SKDS:hover{
+    color: rgb(14, 187, 218);
+}
+.lq:hover{
+    color: rgb(14, 187, 218);
+}
+div.ab{
+    padding-top: 5px;
+}
+section.duoi{
+    display: flex;
+    justify-content: space-between;
+}
+a.a{
+    text-decoration: none;
+}
+
+section.rightcolumn{
+    width: 420px;
+    display: flex;
+    margin: auto;
+}
+.anhtrai{
+    width: 100px;
+}
+.textphai{
+    width: 295px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.ad{
+    text-decoration: none;
+}
+.ad .abcd{
+    margin: 0;
+    padding: 0;
+}
+.ad:hover{
+    color:rgb(14, 187, 218) ;
+}
+.zing, .llq{
+    text-decoration: none;
+    color: grey;
+}
+.zing:hover{
+    color: rgb(14, 187, 218);
+}
+.llq:hover{
+    color: rgb(14, 187, 218);
+}
+.phut{
+    padding: 10px;
+    color: grey;
+}
+.duoiduoi{
+    width: 250px;
+}
+h4.textduoiduoi{
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+}
+h4.textduoiduoi:hover{
+    color:rgb(14, 187, 218) ;
+}
+.tienphong, .phutt{color: rgb(165, 164, 164);}
+.tienphong{
+    text-decoration: none;
+}
+.tienphong:hover{
+    color: rgb(14, 187, 218);
+}
+.phutt{padding: 10px;}
+.abc{padding-top: 5px;}
+.bcd{
+    width: 250px;
+    height: 200px;
+}
+.qwer{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+.khoito{
+    width: 790px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+.khoito1{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+.khoito2{width: 30px;height: 30px;padding-left:}
+.textkhoito2{width: 60px;font-size: 25px;text-decoration: none; }
+.textkhoito2:hover{
+    color: rgb(14, 187, 218);
+}
+.manutren2{
+    display: flex;
+    list-style: none;
+    width: 1300px;
+}
+.manutren{
+    background-color: brown;
+    width: 100%;
+    height: 54px;
+    font-family: segoe ui light;
+}
+a.manutren3{
+    color: whitesmoke;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.manutren3:hover{
+    background-color: rgb(117, 31, 31);
+    padding-top: 6px;
+    padding-bottom: 14px;
+}
+.manuduoi{
+    width: 790px;
+    font-family: segoe ui ;
+    margin-bottom: 25px;
+    margin-left: 33px;
+}
+.manuduoi2{
+    text-decoration: none;
+    list-style: none;
+    padding: 8px;
+    background-color: rgb(180, 9, 9);
+    margin-left: 14px;
+    padding-top: 11px;
+    border-radius: 9px;
+    transition: 0.4s;
+}
+.manuduoi2:hover{
+    border:2px solid rgb(5, 5, 136);
+}
+.manuduoi3{
+    font-size: 19px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+    

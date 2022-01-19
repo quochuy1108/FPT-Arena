@@ -1,0 +1,148 @@
+*{padding: 0;margin: 0;}
+img{width: 100%;}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper ._1block{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.wrapper .imgs, .slideanh{
+    width: 100%;
+    height: 100%;
+}
+.wrapper .slideanh img{
+    position: absolute;
+}
+.wrapper ._1block .divaotrai{width: 175px;height: 40px; background: #c7363682;;text-align: center;position: absolute;bottom: 0;color: rgba(255, 255, 255, 0.479);line-height: 40px;left: 0;transition: 0.4s;transform: translateX(-175px);z-index: 1;}
+.wrapper ._1block .divaotrai:hover{
+    color: white;
+}
+.wrapper ._1block:hover .divaotrai{
+    transform: translateX(0);
+}
+
+.wrapper ._1block .divaotrai .quickview{}
+.wrapper ._1block .divaotrai .quickview i{
+    padding-right: 10px;
+}
+.wrapper ._1block .divaophai{
+    right: 0;
+    width: 175px;
+    height: 40px;
+    background: #c7363682;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.479);
+    line-height: 40px;
+    transition: 0.4s;
+    transform: translateX(175px);
+    z-index: 2;
+}
+.wrapper ._1block .divaophai:hover{
+    color: white;
+}
+.wrapper ._1block:hover .divaophai{
+    transform: translateX(0); 
+}
+.wrapper ._1block .divaophai .wishlist{}
+.wrapper ._1block .divaophai .wishlist i{
+    padding-right: 10px;
+}
+.wrapper ._1block .clicknutphai{
+    position: absolute;
+    top: 0;
+    width: 175px;
+    height: 100%;
+    color: white;
+    right: 0;
+    transition: 0.4s;
+}
+.wrapper ._1block .clicknutphai .nutphai{
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    line-height: 400px;
+    text-align: center;
+    transition: 0.4s;
+  opacity: 0;
+}
+.wrapper ._1block:hover .clicknutphai .nutphai{
+    
+    opacity: 1;
+}
+.wrapper ._1block .clicknutphai:hover .nutphai{
+    background: #881f1f41;
+}
+.wrapper ._1block .clicknuttrai{
+    position: absolute;
+    top: 0;
+    width: 175px;
+    height: 100%;
+    color: white;
+    left: 0;
+    transition: 0.4s;
+}
+.wrapper ._1block .clicknuttrai .nuttrai{
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    line-height: 400px;
+    text-align: center;
+    transition: 0.4s;
+    opacity: 0;
+}
+.wrapper ._1block:hover .clicknuttrai .nuttrai{
+   opacity: 1;
+}
+.wrapper ._1block .clicknuttrai:hover .nuttrai{
+    background: #881f1f41;
+}
+
+.popup{
+    position: fixed;
+    width: 1000px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background: tomato;
+    overflow: scroll;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 5;
+}
+.popup.popuphienlen{
+    opacity: 1;
+    visibility: visible;
+}
+.popup .khoihienlen{
+    width: 100%;
+    height: 100%;
+    padding: 49px;
+}
+.popup .khoihienlen img{margin-bottom: 30px;}
+ .den{
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.411);
+     position: absolute;
+     top:0;
+     opacity: 0;
+     visibility: hidden;left: 0;
+ }
+ .den.denhienlen{
+     opacity: 1;
+     visibility: visible;
+     cursor: pointer;
+ }

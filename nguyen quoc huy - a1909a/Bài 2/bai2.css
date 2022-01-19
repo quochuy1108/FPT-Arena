@@ -1,0 +1,201 @@
+.top{
+    width:1051px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.top h3{
+    color: #47a3da;
+}
+.top h1{
+    color: #47a3da;
+}
+.menu{
+    background: #47a3da;
+    height: 56px;
+}
+.menu ul{
+    width: 1180px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu ul li.love{
+
+padding: 10px 30px;
+}
+
+
+
+.menu ul li.love2{
+
+padding: 10px 50px;
+}
+.menu ul li.love3{
+    padding: 10px 50px;
+}
+.menu ul li.love4{
+    padding: 10px 50px;
+}
+.menu ul li.love5{
+    padding: 10px 50px;
+}
+
+.lovely {
+    height: 0px;
+    width: 100%;
+    background: #f7f7f7;
+    display: flex;
+    cursor: pointer;
+    color: #747474;
+    transition: 0.4s;
+    opacity: 0;
+
+}
+
+
+
+
+.lovely_on {
+    height: 264px;
+    width: 100%;
+    background: #f7f7f7;
+    display: flex;
+    cursor: pointer;
+    opacity: 1;
+ 
+}
+
+
+.lovely .l1{
+    width: 16.67%;
+    height: 200px;
+    margin-top: 36px;
+    text-align: center;
+    opacity: 0;
+    border-right: 1px solid rgb(197, 197, 197); 
+    transition:0.3s;
+    
+}
+.lovely .l1_on{
+    opacity: 1;
+    transition:0.3s;
+    transition-delay: 0.2s;
+}
+
+
+
+.lovely .l1 img{
+    
+}
+.lovely .l1 img:hover{
+    filter: contrast(50%);
+    
+}
+
+
+.lovely .l1  p{
+    margin-top: 10px;
+}
+
+/* Beverage */
+.beverage{
+    width: 100%;
+    height: 0 ;
+    background: #ececec;
+    opacity: 0;
+    cursor: pointer;
+    color: #747474;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+
+
+}
+.beverage .b1{
+    display: flex;
+    width: 100%;
+    height: 264px;
+    opacity: 1;
+    transition: 0.4s;
+    
+}
+.beverage .b1c{
+    text-align: center;
+    width: 16.67%;
+    margin-top: 36px;
+    border-right: 1px solid rgb(187, 187, 187);
+    opacity: 1;
+    transition: 0.4s    ;
+    transition-delay: 0.4s;
+}
+
+
+
+
+
+
+
+.dongke{
+    height: 530px;
+    opacity: 1;
+ 
+}
+
+
+
+
+.beverage .b2{
+    display: flex;
+    width: 100%;
+    height: 264px;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.beverage img:hover{
+    filter: contrast();
+}
+
+
+
+
+.fine{
+    height: 0px;
+    width: 100%;
+    background: #f7f7f7;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.fine_on{
+    height: 262px;
+    opacity: 1;
+}
+
+
+
+
+.fine .content{
+    width: 678px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    color: gray;
+}
+.fine .content .f1{
+    margin-top: 30px;
+    border-right: 1px solid rgb(196, 196, 196);
+    width: 222px;
+    text-align: center;
+}
+.fine .content .f1 img{}
+.fine .content .f1 .text{
+    margin-top: 10px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      width: 450px;
+      /* height: 400px; */
+      margin: 5% auto;
+      overflow: hidden;
+    }
+    .slides {
+      display: flex;
+      height: 100%;
+    }
+    .slide {
+      min-width: 100%;
+    }
+    .slide img {
+      width: 100%;
+      display: block;
+      height: 100%;
+    }
+
+    .slide-controls {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #prev-btn,
+    #next-btn {
+      font-size: 24px;
+    }
+
+    .dots {
+      display: flex;
+      justify-content: center;
+    }
+
+    .dot {
+      width: 20px;
+      height: 20px;
+      background-color: rgb(94, 94, 94);
+      border-radius: 50%;
+      margin: 0 4px;
+    }
+
+    .active {
+      background-color: rgb(29, 29, 29);
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="slides">
+        <div class="slide">
+          <img
+            src="https://kenh14cdn.com/zoom/280_175/203336854389633024/2021/11/19/photo1637295286620-1637295286826532330203.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://kenh14cdn.com/zoom/280_175/203336854389633024/2021/11/19/photo1637308574695-16373085748221515352864.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://kenh14cdn.com/zoom/280_175/203336854389633024/2021/11/18/photo1637252142738-16372521429221229907566.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://kenh14cdn.com/zoom/280_175/203336854389633024/2021/11/19/photo1637282348526-16372823487071714312993.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="dots">
+        <div class="dot active" data-dot="1"></div>
+        <div class="dot" data-dot="2"></div>
+        <div class="dot" data-dot="3"></div>
+        <div class="dot" data-dot="4"></div>
+      </div>
+      <div class="slide-controls">
+        <button id="prev-btn">Prev</button>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+    <script src="1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+*{margin:0;padding: 0;}
+.all{
+    width: 300px;
+    height: 150px;
+    position: relative;
+}
+.lop1{width: 100%;transition: 0.5s;}
+.all:hover .lop1{opacity: 0;}
+.lop2{width: 100%;position: absolute;top: 0;left: 0;opacity: 0;transition: 0.5s;}
+.all:hover .lop2{opacity: 1;}
+.lop3{display: flex;width: 100%;justify-content: space-between
+    ;background-color: chocolate;}
+.lop4{
+    position: absolute;
+    transition: 0.5s;
+    margin-top: 2px;
+}
+.all:hover .lop4{opacity: 0;}
+.lop5{position: absolute;opacity: 0;margin-top:2px}
+.all:hover .lop5{opacity: 1;}
+    
+    

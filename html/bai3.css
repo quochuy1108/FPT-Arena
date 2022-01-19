@@ -1,0 +1,112 @@
+*{margin: 0;padding: 0px;padding-bottom: 1px;}
+body{background-color: rgb(238, 237, 237);}
+.blackline{width: 100%;background-color: rgb(15, 15, 15);height: 34px;font-family: segoe ui;}
+.blackline .magazine .fa{color: rgb(218, 128, 12);font-size: 9px;}
+.blackline .magazine2{text-decoration: none;color: whitesmoke;font-weight: 500;font-size: 13px;;text-align: right;}
+.khoiden{margin-left: 10px;;}
+.blacklinewidth{width: 1500px;margin: auto;}
+.yellowline{font-family:segoe ui;
+    width: 100%;height: 100px;background-color: #f0a52b;margin-bottom:-19px
+;margin-top:7px}
+.alo123{width: 1400px;margin: auto;}
+.imglogokenh14{width: 200px;height: 100px;}
+.dienbien {text-decoration: none;color: whitesmoke;border: 1px solid whitesmoke;padding: 5px 20px;border-radius: 30px;}
+.kenh14arrow img{padding-left: 110px;padding-bottom: 45px;width:20px;}
+.covid19{text-decoration: none;color: whitesmoke;border: 1px solid whitesmoke;padding: 5px 20px;border-radius: 30px;margin-left:20px}
+.vanhoaamthuc{text-decoration: none;color: whitesmoke;border: 1px solid whitesmoke;padding: 5px 20px;border-radius: 30px;margin-left:20px;}
+.gop{margin-top: -65px;margin-left: 350px;font-size:15px;font-weight:600;}
+.redline{width: 100%;background-color: #a70e1a;height: 45px;font-family: segoe ui;font-size: 19px;}
+.redline2{
+    display: flex;
+    list-style: none;
+    width: 1400px;
+    margin: auto;
+    margin-top: 39px;
+}
+li a {text-decoration: none;color: whitesmoke;padding: 8px;display: block;transition: 0.3s;}
+li a:hover{background-color: #850c16;padding-bottom:12px}
+.grey{width: 1225px;margin: auto;margin-top: 15px;margin-bottom: 15px;}
+.greyimg{width: 100%;}
+._1400px{background-color: white ;width: 1500px;margin: auto;}
+._1300px{width: 1400px;margin: auto;padding-top: 20px;}
+.ancathegioi{
+    text-transform: uppercase;
+    font-family: segoe ui;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    border-bottom: 5px solid #c81926;
+    padding-bottom: 18px;
+}
+.lavacool{text-transform: uppercase;font-family: segoe ui;text-decoration: none;font-weight: 700;color: black;margin-left: 1085px;}
+.lavacool:hover{border-bottom: 5px solid #c81926;padding-bottom:18px}
+._1300px .khampha{text-transform: uppercase;font-family: segoe ui ;text-decoration: none;font-weight: 700;color: black;margin-left: 20px;}
+._1300px .khampha:hover{border-bottom: 5px solid #c81926;padding-bottom:18px}
+.vachngang{width: 100%;height: 1px;background-color: grey;opacity: 30%;margin-top: 20px;}
+._1300flex{width: 1400px;margin: auto;display: flex;justify-content: space-between;margin-top: 25px;}
+.trai{width: 870px;}
+.trai h1{font-size: 32px;}
+.tacgia{padding: 15px 0px;font-weight: 700;font-size: 13px;}
+.ngocanh{color: #fb6c27;}
+.theo{color: #777;text-transform: uppercase;}
+.trithuctre{text-decoration: none;color: #41455e;text-transform: uppercase;}
+.time{color: #777;}
+.trai .time .fa{color: #777;margin-left: 10px;font-size: 18px;}
+.trai .time2{margin-left:-1px;}
+.letter .letter2 .letter3{margin-left: 500px;}
+.vachdut{border: 1px dashed black;opacity: 10%;margin-top: 20px;margin-bottom: 20px;}
+.iconfblikeletter{width: 1300px;display: flex;}
+.linkhay img{width: 100px;height: 32px;}
+.iconfb{margin-left: 12px;display: flex;justify-content: space-between;width: 90px;background-color: #3f51b5;color: whitesmoke;padding-right:15px;border-radius: 3px;height: 30px;padding-bottom: 1px;}
+.iconfbtrai{width: 30px;}
+.imgicon{width: 100%;}
+.iconfbphai{margin-top: 4px;}
+.iconfb2{text-decoration: none;}
+.iconlike{display: flex;justify-content: space-between;width: 90px;background-color: #004ffa;color: whitesmoke;padding-right:15px;border-radius: 3px;height: 30px;}
+.iconlike{margin-left: 10px;}
+.iconliketrai{margin-left: 17px;margin-top:4px}
+.letter{width: 20px;margin-left: 600px;background-color: rgb(88, 88, 88);padding: 0px 10px;padding-top: 5px;border-radius: 3px;}
+.letter img{width: 100%;margin-top: -2px;}
+.noidung{width: 870px;margin-top: 30px;display: flex;justify-content: space-between;}
+.ndtrai{width: 65px;}
+.ndtrai .chat{width: 100%;}
+.ndtrai .home{background-color: #fa6b24;width: 40px;border-radius:50%;padding: 12px;margin-top:10px}
+.ndtrai .ndtraifb{;width: 100%;margin-top: 15px;}
+.ndphai{width: 760px;}
+.list{margin-top: 20px;margin-left: 20px;line-height: 30px;color: red;}
+.tieudenho{text-decoration: none;color: black;font-weight: 300;}
+.ndnho{margin-bottom: 20px;margin-top: 20px;}
+.ndto{font-size: 32px;}
+.ndanh{width: 100%;margin-top: 20px;}
+.nguonanh{background-color: rgb(224, 220, 220);padding: 10px;color: rgb(32, 32, 32);font-weight:500;margin-top: -6px;}
+.textduoicung{margin-top: 80px;margin-bottom: 30px;}
+.textduoicung img{width: 30px;height: 20px;;}
+.textduoicung a{text-decoration: none;}
+div .textduoicung span{font-size: 28px;color: #004370;font-weight: 600;}
+div .textduoicung span:hover{color: black;}
+.phai{width: 422px;}
+.anhphai{margin-bottom: 20px;width: 100%;margin-top: 5px;height: 750px;}
+.daihocbaria{background-color: #1b418a;padding: 12px;color:whitesmoke;font-weight:600;border-radius:px;padding-left: 31px;}
+.khungtobenphai{display: flex;justify-content: space-between;padding:10px;border:1px solid rgb(221, 221, 221)}
+.phiabentrai{width: 20%;}
+.imgbentrai img{width: 100%;margin-left:20px}
+.phiabenphai{width: 70%;}
+.textbenphai{text-decoration: none;color: #564e4e;
+    font-weight: 700;margin-top:12px;display:block}
+.textbenphai:hover{color:rgb(8, 8, 148)}
+.vachngang2{width: 100%;height: 1px;background-color: rgb(201, 200, 200);opacity: 30%;margin-bottom: 20px;margin-top: 20px;}
+.tangview{margin-left: -885px;}
+.tangview img:hover{width: 99%;}
+.hashtag{text-decoration: none;background-color: rgb(218, 218, 218);margin-right: 20px;padding: 10px;border-radius: 4px;color: rgb(48, 47, 47);display: inline-block;margin-bottom: 20px;}
+.hashtag:hover{background-color: rgb(156, 156, 156);color: whitesmoke;}
+.kinhlup{width: 16px;padding-top:5px}
+.gopden{text-align: center;padding: 8px 5px;border-right:1px solid rgb(41, 41, 41);border-left:1px solid rgb(41, 41, 41);margin-left: 1023px;}
+.blackline input{background-color: rgb(15, 15, 15);color: whitesmoke;border: none;font-size: 12px;outline:none}
+
+
+
+
+
+
+
+
